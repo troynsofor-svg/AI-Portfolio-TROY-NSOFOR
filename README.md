@@ -26,7 +26,7 @@ Deep Learning (ITAI 2376)
 - [Convolutional Neural Networks (CNNs)](https://colab.research.google.com/drive/1I5nckGi8FY2KGikpDFi4OBdoaMf3dBM_)
 
 Natural Language Processing (ITAI 2373)
-- [NewsBot_Midterm Project] (https://colab.research.google.com/drive/1FvuTdkpgPGSbqRnkcPZboS_lazR1XCp4)
+- [NewsBot_Midterm Project](https://colab.research.google.com/drive/1FvuTdkpgPGSbqRnkcPZboS_lazR1XCp4)
 - [Text Preprocessing](https://colab.research.google.com/drive/1IlkPKJF9TUC6GeYdQCczD3vI4hdtNOQN)
 
 Data Science (ITAI 2377)
