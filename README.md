@@ -33,5 +33,5 @@ Data Science (ITAI 2377)
 - [L02 “Data is the Fuel for AI – But How Do We Use It?”] (https://colab.research.google.com/drive/1PfTQCBqNvfsFrxVuthpMCiuvLT8p8kLA)
 - [Deep Learning Data Preprocessing] (https://colab.research.google.com/drive/1h5lVPw25EjKIKou-HtAxwvVMfNv53sdG)
 
-- Contact
+Contact
 - Email: troynsofor@gmail.com
