@@ -9,7 +9,7 @@ ITAI-2376
 
 Mrs. McManus
 
-About Me
+- About Me
 I am an Applied AI student at Houston Community College, specializing in 
 deep learning and data science. This portfolio shows my projects, skills, and the classes I've taken and doing through the AI & Robotics program.
 
