@@ -14,7 +14,7 @@ About Me:
 I am an Applied AI student at Houston Community College, specializing in 
 deep learning and data science. This portfolio shows my projects, skills, and the classes I've taken and doing through the AI & Robotics program.
 
-Technical Skills
+Technical Skills:
 - Python, TensorFlow, PyTorch, Keras, Sckit-learn, Pandas, etc.
 - Coding cells on Jupyter Notebooks (Google Colab)
 - Deep Learning
