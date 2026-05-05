@@ -34,4 +34,14 @@ the successful printing of the first 1000 characters of the content column
 (from a cell) serves as a qualitative verification of the successful data cleaning and reconstruction.
 
 Key Findings: The things I learned in this project are how to code cells in Google Colab.
+
+Technologies Used: 
+- Libraries: (Pandas, Torchvision, Torch, and collections)
+- Tools: (Counter)
+
+ How to Run:
+ - Open Google Colab
+ - Click on open notebook
+ - Click on L02_Troy_Nsofor_ITAI_2377_.ipynb
+ - Run all the cells from top to bottom
  
