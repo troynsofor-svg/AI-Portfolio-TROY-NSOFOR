@@ -22,6 +22,7 @@ Technical Skills:
 - Data Science
 
 Featured Courses & Projects
+
 Deep Learning (ITAI 2376)
 - [Convolutional Neural Networks (CNNs)] (https://colab.research.google.com/drive/1I5nckGi8FY2KGikpDFi4OBdoaMf3dBM_)
 
