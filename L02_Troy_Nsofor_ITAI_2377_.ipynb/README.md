@@ -33,4 +33,5 @@ While there are no numerical performance metrics,
 the successful printing of the first 1000 characters of the content column 
 (from a cell) serves as a qualitative verification of the successful data cleaning and reconstruction.
 
-Key Findings: In this project I learned how to code cells in Google Colab.
+Key Findings: The things I learned in this project are how to code cells in Google Colab.
+ 
