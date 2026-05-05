@@ -31,5 +31,6 @@ After your modifications, the data is now correctly parsed into category, filena
 
 While there are no numerical performance metrics, 
 the successful printing of the first 1000 characters of the content column 
-(from cell lYiUAG1-rwOp) serves as a qualitative verification of the successful data cleaning and reconstruction.
+(from a cell) serves as a qualitative verification of the successful data cleaning and reconstruction.
 
+Key Findings: In this project I learned how to code cells in Google Colab.
