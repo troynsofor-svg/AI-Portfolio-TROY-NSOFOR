@@ -1,26 +1,25 @@
-Problem Statement: The problem that this project solves is by transforming messy, 
-inconsistent, or raw data into a clean, 
-structured, and normalized format suitable for model training.
+Problem Statement: The problem that this project solves is by changing messy, 
+incompatible, or unstructured data into a clean, 
+structured, and regularized format fit for model fitting.
 
-Approach: For Image Data, you focused on standardizing input with resizing 
-and normalization, and enhancing diversity through rotation (data augmentation). 
-You utilized cv2 for image manipulation and skimage for normalization.
+Approach: For Image Data, I concentrated on formalizing input with changing the size 
+and regularization, and improving diversity through rotation (data augmentation). 
+I used the cv2 for image processing and skimage for formalization.
 
-In Text Data preprocessing, you cleaned raw text by tokenizing, 
-removing stop words and punctuation, and reducing words to their base form via lemmatization. 
-This was primarily achieved using the nltk library.
+In Text Data preprocessing, I cleaned unstructured text by word-splitting, 
+deleting stop words and punctuation, and decreasing words to their root by using lemmatization. This was mainly accomplished using the NLTK library.
 
-For Time Series Data, your work involved handling missing values using 
-backward fill and scaling data to a consistent range with min-max normalization. 
-Pandas and Numpy were key tools here.
+For Time Series Data, my work had something to do with handling missing values using 
+backfilling and standardization to a compatible range with min-max normalization. 
+I used Numpy as the key library for this part.
 
-In the Video Data section, you processed individual frames by resizing them and 
-converting them to grayscale, again relying on cv2.
+In the Video Data section, I processed single photos by changing the size and 
+transforming them to grayscale, again still depending on cv2.
 
-Finally, for Audio Data, you extracted significant features like MFCCs to represent 
-sound characteristics and then normalized these features. The librosa library was central to this task, 
-complemented by numpy for normalization. 
-You also generated a dummy audio file using scipy.io.wavfile to ensure reproducibility.
+Lastly, for Audio Data, I extracted crucial components such as MFCCs to show 
+sound characteristics and then formalized these components. I used Librosa for this task, 
+matched with Numpy for formalization. 
+I even created a dummy audio file by using scipy.io.wavfile to confirm reproducibility.
 
 Results: The MFCCs shape was (20, 216) and Normalized MFCCs was shape: (20, 216) of the 
 dummy audio file. The video file was not available, a warning was shown, and a 
