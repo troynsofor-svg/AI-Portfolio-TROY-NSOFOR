@@ -52,10 +52,10 @@ How to Run:
 - Run all the cells from top to bottom
 
 Instructions on how to download and load the dataset
-1. Visit: kaggle.com/datasets/returnofsputnik/puppy-or-bagelLinks to an external site.
+1. Visit: [kaggle.com/datasets/returnofsputnik/puppy-or-bagelLinks] to an external site.
 2. Click "Download" (requires free Kaggle account)
 3. In Colab: Click the 📁 folder icon → Upload the zip file
 4. Uncomment the manual extraction cell in the notebook
 
 The name of the dataset is Puppy or Bagel
-Link to where the dataset is downloaded: kaggle.com/datasets/returnofsputnik/puppy-or-bagelLinks
+Link to where the dataset is downloaded: [kaggle.com/datasets/returnofsputnik/puppy-or-bagelLinks]
