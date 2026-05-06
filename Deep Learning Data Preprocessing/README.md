@@ -27,9 +27,9 @@ black placeholder picture was shown instead of the video too. There were 5 image
 One of them was rotated and four of them were not. When the picture was rotating, black parts were showing. 
 Four of the images were green and blue and one of them was gray.
 
-Cell CbzL2c4iioLg (Sample Graph): This cell is designed to create and display a line graph titled "Sample Graph" with data points (1,4), (2,5), and (3,6). It also attempts to save this graph as results/graph.png. Based on the empty standard output, a plot would have been displayed inline in the notebook. However, there appears to be an issue in the saving part where x and y are not defined when plt.plot(x,y) is called again for saving the figure, which would lead to an error during that specific operation.
+The sample graph in the cell is made to create and show a line graph named "Sample Graph" with the x and y variables (1,4), (2,5), and (3,6). 
 
-Cell kQ_vAbX6m4C1 (Test Graph): This cell explicitly defines x = [1, 2, 3] and y = [4, 5, 6]. It successfully plots these values, creating a line graph with the title "Test Graph" connecting the points (1,4), (2,5), and (3,6). The code saves this plot as results/test_graph.png and then displays it. The empty standard output confirms that the plot was generated and displayed successfully without any text-based output.
+The test graph in the cell clearly defines x = [1, 2, 3] and y = [4, 5, 6]. It really plots the values, making a line graph with this name called "Test Graph" intersecting the x and y variables (1,4), (2,5), and (3,6). The blank output ensures that the graph was created and showed successfully with no textual output.
 
 Key Findings: The things I learned from this project are the errors and corrections that I made when 
 coding cells and real-world applications.
