@@ -1,39 +1,39 @@
-Problem Statement: The problem that this project solves is by efficiently analyzing, classifying, and interpreting spatial data—such as images and videos—by automatically 
-learning hierarchical features without manual feature engineering.
+Problem Statement: The problem that this project solves is by effectively oberserving, categorizing, and explaining spatial data—like pictures and videos—by automatically 
+learning hierarchical components without data transformation.
 
 Approaches: 
-Convolutional Neural Networks (CNNs): This was the core algorithm. You built a custom CNN from scratch, which is inherently designed for image processing. 
-CNNs efficiently analyze spatial data by:
+Convolutional Neural Networks (CNNs): This is the main algorithm. I've made a custom CNN from scratch, which is essentailly made for image analysis. 
+CNNs effectively examine geospatial data by:
 
-- Preserving spatial relationships: They understand that pixels close to each other are related.
-Parameter sharing: Filters are applied across the entire image, reducing the number of parameters and making them efficient.
-Hierarchical feature learning: They learn simple features like edges and textures in early layers, and progressively combine them into 
-more complex features (e.g., fur patterns, round shapes) in deeper layers.
+- Maintaining topological relationships: They comprehend that pixels close to each other have something in common.
+Parameter sharing: Filters are used over the whole picture, decreasing the number of parameters and causing them to be effective.
+Hierarchical feature learning: They learn simple parts such as surfaces and textures in early layers, and progressively integrate them into 
+more sophisticated parts (e.g., fur patterns, round shapes) in deeper layers.
 
-- Data Augmentation: To improve the model's ability to generalize and prevent overfitting, you used techniques 
-like rotation, shifting, shearing, zooming, and horizontal flipping. This effectively increased the diversity of your training data by creating variations of existing images.
+- Data Augmentation: To improve the model's capability to adapt and stop overfitting, I used methods such as rotation, shifting, shearing, zooming, and horizontal reflection. This efficiently maximized the variety of my training data by making versions of existing pictures.
 
-- Transfer Learning: You leveraged pre-trained CNN models (specifically ResNet50 and optionally MobileNetV2) that were already trained on vast image datasets (like ImageNet). 
-This method is highly efficient for spatial data tasks, especially with smaller datasets, because:
-The pre-trained models already learned robust, general-purpose features from millions of images.
-You only needed to train a small, new classification 'head' on top of the frozen pre-trained layers.
+- Transfer Learning: I powered pre-trained CNN models (particularly ResNet50 and optionally MobileNetV2) that were already trained on huge picture datasets (such as ImageNet). 
+This technique is highly effective for geospatial analysis, particularly with little datasets, because:
+The pre-trained models already learned strong, general-purpose parts from lots of pictures.
+I just needed to train a little, new categorization 'head' on top of the frozen layers.
 
-- Fine-tuning: To further adapt the transfer learning model to your specific dataset, you unfroze some of the later layers of the pre-trained base model and continued training with a very low learning rate. 
-This allowed the model to slightly adjust its high-level feature detectors to be more relevant to distinguishing puppies from bagels.
+- Fine-tuning: To then adapt the transfer learning model to my limited dataset, I unfroze several of the later layers of the tranformer model and persisted to training with a very low step size. 
+This enabled the model to change its high-level feature detectors a little bit to be more related to differentiating puppies from bagels.
 
-- Image Preprocessing with ImageDataGenerator: This utility efficiently loads, resizes, and batches image data, and applies the specified data augmentation transformations on-the-fly.
+- Image Preprocessing with ImageDataGenerator: The utility effectively loads, changes the size, and batches image data, and uses the specified noise injections on-the-fly.
 
-Results: Custom CNN: Your custom-built CNN achieved a 50.00% Test Accuracy with a Test Loss of 0.7231 after 8 epochs of training. 
-This model learned from scratch to distinguish between puppies and bagels.
+Results: 
+Custom CNN: My custom-built CNN accomplished a 50.00% test accuracy with a test loss of 0.7231 after 8 epochs in training. 
+My model learned from scratch to differentiate between puppies and bagels.
 
-Transfer Learning (ResNet50): Using a pre-trained ResNet50 model, you also achieved a 50.00% Test Accuracy with a slightly lower Test Loss of 0.7132 after 5 epochs. 
-This demonstrates that even with fewer epochs, transfer learning can match or slightly outperform a custom model on a small dataset, 
-as it leverages features learned from a much larger dataset.
+Transfer Learning (ResNet50): Using the transfer learning model, I even accomplished a 50.00% test accuracy with a somewhat lower test loss of 0.7132 after 5 epochs in training. 
+This describes that even with a small number of epochs, transfer learning could match or somewhat surpass a custom model on a little dataset, 
+as it powers components learned from a much bigger dataset.
 
-Fine-tuning: Your attempt to fine-tune the transfer learning model by unfreezing some of its layers and 
-continuing training for 5 additional epochs did not improve performance, remaining at 50.00% accuracy. 
-You correctly identified several potential reasons for this, including the small dataset size, the possibility of the chosen learning rate not being optimal, and 
-the fact that the pre-trained features might already be sufficient for this relatively simple binary classification task on limited data.
+Fine-tuning: My effort to fine-tune the ResNet 50 model by unfreezing several of its layers and 
+persisting the training for 5 more epochs didn't enhance performance, leaving only 50.00% accuracy. 
+I accurately spotted some potential explanations for this, including the little dataset size, the likelihood of the chosen step size not being optimal, and 
+the fact that the pre-trained parts may have already been enough for this relatively simple two-class classification on limited data.
 
 Key Findings (What I learned):
 - CNN fundamentals: convolutional layers, pooling, and feature maps
