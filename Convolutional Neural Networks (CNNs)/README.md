@@ -1,12 +1,12 @@
-Problem Statement: The problem that this project solves is by effectively oberserving, categorizing, and explaining spatial data—like pictures and videos—by automatically 
+Problem Statement: The problem that this project solves is effectively observing, categorizing, and explaining spatial data—like pictures and videos—by automatically 
 learning hierarchical components without data transformation.
 
 Approaches: 
-Convolutional Neural Networks (CNNs): This is the main algorithm. I've made a custom CNN from scratch, which is essentailly made for image analysis. 
+Convolutional Neural Networks (CNNs): This is the main algorithm. I've made a custom CNN from scratch, which is essentially made for image analysis. 
 CNNs effectively examine geospatial data by:
 
 - Maintaining topological relationships: They comprehend that pixels close to each other have something in common.
-Parameter sharing: Filters are used over the whole picture, decreasing the number of parameters and causing them to be effective.
+Parameter sharing: Filters are used over the whole picture, by decreasing the number of parameters and causing them to be effective.
 Hierarchical feature learning: They learn simple parts such as surfaces and textures in early layers, and progressively integrate them into 
 more sophisticated parts (e.g., fur patterns, round shapes) in deeper layers.
 
