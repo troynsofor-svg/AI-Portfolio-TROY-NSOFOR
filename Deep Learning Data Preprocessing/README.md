@@ -25,7 +25,11 @@ Results: The MFCCs shape was (20, 216) and Normalized MFCCs was shape: (20, 216)
 dummy audio file. The video file was not available, a warning was shown, and a 
 black placeholder picture was shown instead of the video too. There were 5 images that were showing. 
 One of them was rotated and four of them were not. When the picture was rotating, black parts were showing. 
-Four of the images were green and blue and one of them was gray. 
+Four of the images were green and blue and one of them was gray.
+
+Cell CbzL2c4iioLg (Sample Graph): This cell is designed to create and display a line graph titled "Sample Graph" with data points (1,4), (2,5), and (3,6). It also attempts to save this graph as results/graph.png. Based on the empty standard output, a plot would have been displayed inline in the notebook. However, there appears to be an issue in the saving part where x and y are not defined when plt.plot(x,y) is called again for saving the figure, which would lead to an error during that specific operation.
+
+Cell kQ_vAbX6m4C1 (Test Graph): This cell explicitly defines x = [1, 2, 3] and y = [4, 5, 6]. It successfully plots these values, creating a line graph with the title "Test Graph" connecting the points (1,4), (2,5), and (3,6). The code saves this plot as results/test_graph.png and then displays it. The empty standard output confirms that the plot was generated and displayed successfully without any text-based output.
 
 Key Findings: The things I learned from this project are the errors and corrections that I made when 
 coding cells and real-world applications.
