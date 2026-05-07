@@ -17,7 +17,7 @@ This technique is highly effective for geospatial analysis, particularly with li
 The pre-trained models already learned strong, general-purpose parts from lots of pictures.
 I just needed to train a little, new categorization 'head' on top of the frozen layers.
 
-- Fine-tuning: To then adapt the transfer learning model to my limited dataset, I unfroze several of the later layers of the tranformer model and persisted to training with a very low step size. 
+- Fine-tuning: To then adapt the transfer learning model to my limited dataset, I unfroze several of the next layers of the tranformer model and persisted to training with a very low step size. 
 This enabled the model to change its high-level feature detectors a little bit to be more related to differentiating puppies from bagels.
 
 - Image Preprocessing with ImageDataGenerator: The utility effectively loads, changes the size, and batches image data, and uses the specified noise injections on-the-fly.
