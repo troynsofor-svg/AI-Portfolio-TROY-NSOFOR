@@ -25,10 +25,10 @@ frequently utlizing Python's re module (regular expressions) and the text prepro
 3. Number Handling: Getting rid of numerical digits.
 4. Special Character Handling: Particularly, the advanced cleaner earmarked and deleted URLs, email addresses, and reminders (@username),
 when changing the hashtags (e.g., #coffee to coffee) and eliminating emojis.
-5. Whitespace Normalization: Decreasing tons of spaces to an individual surface and stripping leading/trailing blank surface.
+5. Whitespace Normalization: Decreasing tons of spaces to an individual surface and stripping leading/trailing a blank surface.
 
 Results: 
-- Tokenization Comparison: I examined that spaCy gave richer language marking (POS tags, lemmas) and 
+- Tokenization Comparison: I examined that spaCy gave a richer language marking (POS tags, lemmas) and 
 dealed with 'messy' social messages (emojis, hashtags) with data analysis than NLTK, 
 making it more strong for sophisticated real-world data.
 
