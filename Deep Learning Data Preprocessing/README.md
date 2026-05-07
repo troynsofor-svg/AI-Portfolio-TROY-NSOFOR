@@ -1,4 +1,4 @@
-Problem Statement: The problem that this project solves is by changing messy, 
+Problem Statement: The problem that this project solves is changing messy, 
 incompatible, or unstructured data into a clean, 
 structured, and regularized format fit for model fitting.
 
@@ -29,7 +29,7 @@ Four of the images were green and blue and one of them was gray.
 
 The sample graph in the cell is made to create and show a line graph named "Sample Graph" with the x and y variables (1,4), (2,5), and (3,6). 
 
-The test graph in the cell clearly defines x = [1, 2, 3] and y = [4, 5, 6]. It really plots the values, making a line graph with this name called "Test Graph" intersecting the x and y variables (1,4), (2,5), and (3,6). The blank output ensures that the graph was created and showed successfully with no textual output.
+The test graph in the cell clearly defines x = [1, 2, 3] and y = [4, 5, 6]. It really plots the values, making a line graph with this name called "Test Graph" intersecting the x and y variables (1,4), (2,5), and (3,6).
 
 Key Findings: The things I learned from this project are the errors and corrections that I made when 
 coding cells and real-world applications.
